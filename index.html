@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="body">
+    <div class="div">
+    <h1 class="h1">Registration form</h1>
+    <p class="p1">Please fill out this form with the required information.</p>
+    <form action="">
+    <div class="div1">
+    
+    <label for="name">
+        <p>Enter Your First Name: </p>
+        <input type="text" class="in1" name="name" required>
+    </label>
+    <label for="name1">
+        <p>Enter Your Last Name: </p>
+        <input type="text" class="in1" name="name1" required>
+    </label>
+    <label for="email">
+        <p>Enter Your Email: </p>
+        <input type="email" class="in1" name="email" required>
+    </label>
+    <label for="pass">
+        <p>Create a New Password: </p>
+        <input type="password" class="in1" name="pass" required>
+    </label>
+    </div>
+    <p><hr class="hr1"></p>
+    <div class="div2">
+        <p>
+        <input type="radio" name="pa" required>
+        <label for="pa">Personal Account</label>
+        </p>
+        <p>
+        <input type="radio" name="pa" required>
+        <label for="pa">Business Account</label>
+        </p>
+        <p>
+            <input type="checkbox" name="ta">
+            <label for="ta">I accept the <a href="#" class="a1">terms and conditions</a></label>
+        </p>
+    </div>
+    <p><hr class="hr1"></p>
+    <div class="div3">
+        <label for="pic">
+            <p>Update a profile picture: </p>
+            <input type="file" class="in1" name="pic" placeholder="No file chosen">
+        </label>
+        <label for="age">
+            <p>Input your age (years): </p>
+            <input type="number" class="in1" name="age" required>
+        </label>
+        <label for="hear">
+            <p>How did you hear about us? </p>
+            <select name="hear" id="sel" width="50000px">
+                <option value="">(Select one)</option>
+                <option value="">From your school</option>
+                <option value="">From your office</option>
+                <option value="">From your friend</option>
+                <option value="">From a website</option>
+                <option value="">From Whatsapp</option>
+                <option value="">From Youtube</option>
+                <option value="">From an Email</option>
+                <option value="">From No one</option>
+            </select>
+        </label>
+        <label for="bio">
+            <p>Provide a Bio: </p>
+            <textarea name="bio" id="text" cols="66" rows="3.5" placeholder="I like coding on the beach. . . "></textarea>
+        </label>
+    </div>
+    <p class="pp"><button class="but" type="submit">Submits</button></p>
+    </div>
+    </body> 1716 1082 9646 51590
+</body>
+</html>
